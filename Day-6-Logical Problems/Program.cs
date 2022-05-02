@@ -2,10 +2,10 @@
 
 
 using Day_6_Logical_Problems;
-
-FindFibonacci obj = new FindFibonacci();
-Console.Write("Fibonacci Series:- ");
-obj.FindFibo();
-
+    
+Console.Write("Enter the number to check waeather it is Perfect or not:- ");
+int n = int.Parse(Console.ReadLine());
+FindPerfectNo obj = new FindPerfectNo();
+obj.FindPerfect(n);
 
 
