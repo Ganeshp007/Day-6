@@ -3,11 +3,11 @@
 
 using Day_6_Logical_Problems;
 
-Console.WriteLine("---- Welcome To Prime NO Test ----\n");
+Console.WriteLine("---- Welcome To Number Operations ----\n");
     
-Console.Write("Enter the number to check waeather it is Perime or not:- ");
+Console.Write("Enter the number to Reverse :- ");
 int n = int.Parse(Console.ReadLine());
-FindPrimeNo obj = new FindPrimeNo();
-obj.FindPrime(n);
+FindReverseNo obj = new FindReverseNo();
+obj.FindReverse(n);
 
 
