@@ -2,10 +2,12 @@
 
 
 using Day_6_Logical_Problems;
+
+Console.WriteLine("---- Welcome To Prime NO Test ----\n");
     
-Console.Write("Enter the number to check waeather it is Perfect or not:- ");
+Console.Write("Enter the number to check waeather it is Perime or not:- ");
 int n = int.Parse(Console.ReadLine());
-FindPerfectNo obj = new FindPerfectNo();
-obj.FindPerfect(n);
+FindPrimeNo obj = new FindPrimeNo();
+obj.FindPrime(n);
 
 
