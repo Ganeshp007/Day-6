@@ -2,5 +2,7 @@
 
 using Day_6_Logical_Problems;
 
-FindCouponNo obj = new FindCouponNo();
-obj.FindCouponNumber();
+Console.WriteLine("----- Welcome to Stop Watch Simulation -----\n");
+
+SimulateWatch obj = new SimulateWatch();
+obj.RunStopWatch();
