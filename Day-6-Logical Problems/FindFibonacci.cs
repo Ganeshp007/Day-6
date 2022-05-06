@@ -8,18 +8,17 @@ namespace Day_6_Logical_Problems
 {
     internal class FindFibonacci
     {
-        public int n1 = 0;
-        public int n2 = 1;
+       
+        
+        public void  FindFibo(int n1,int n2,int num)
+        {    
 
-
-        public void  FindFibo()
-        {
             int i,n3;
-            for(i=1;i<=10;i++)
+            for(i=1;i<=num-2;i++)
             {
                 n3 = n1 + n2;
                 Console.Write(n3);
-                if(i >0 && i<10)
+                if(i >0 && i<num-2)
                 {
                     Console.Write(",");
                 }
